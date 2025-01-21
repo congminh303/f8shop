@@ -137,11 +137,6 @@
     padding: 0;
 }
 
-.navbar__notify-item {
-    /* height: 80px;
-    max-height: 80px; */
-}
-
 .navbar__notify-link {
     display: flex;
     padding: 4px 12px;
@@ -202,4 +197,136 @@
         opacity: 1;
         transform: scale(1);
     }
+}
+
+/* Modal CSS */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+}
+
+.modal__content {
+    width: 512px;
+    z-index: 1;
+    margin: auto;
+    border-radius: 4px;
+    background: var(--white-color);
+}
+
+.modal__header {
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal__heading {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.modal__switching {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.modal__body {
+    padding: 0 32px;
+    margin-top: 24px;
+}
+
+.auth-form__group {
+    margin-top: 16px;
+}
+
+.auth-form__input {
+    width: 100%;
+    height: 40px;
+    padding: 8px 12px;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border: 1px solid #dadada;
+    outline: none;
+}
+
+.auth-form__input:focus {
+    border-color: #666;
+}
+
+.auth-form___aside {
+    margin-top: 24px;
+}
+
+.auth-form__policy-text {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    text-align: center;
+}
+
+.auth-form__policy-link {
+    color: var(--primary-color);
+} 
+
+.auth-form__controls {
+    margin-top: 48px;
+    text-align: right;
+}
+
+.modal__footer {
+    background: #f5f5f5;
+    margin-top: 24px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.modal__footer .social-links {
+    padding: 16px 32px;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    font-weight: 400;
+}
+
+.btn-social i {
+    font-size: 2rem;
+}
+
+.btn-fb {
+    background: #273b69;
+    color: var(--white-color);
+}
+
+.btn-fb:hover {
+    background: #273b69;
+}
+
+.btn-gg {
+    background: var(--white-color);
+    color: var(--text-color);
+}
+
+.btn-gg:hover {
+    background: var(--white-color);
 }

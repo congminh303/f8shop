@@ -1,7 +1,8 @@
 :root {
     --white-color: #fff;
     --black-color: #000;
-    --text-color: #333;
+    --text-color: #313131;
+    --primary-color: #f53f2d;
 }
 
 * {
@@ -23,8 +24,56 @@ a {
     text-decoration: none;
 }
 
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.px-16 {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.px-24 {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+.px-32 {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+}
+
+.ml-8 {
+    margin-left: 8px !important;
+}
+
+.ml-16 {
+    margin-left: 16px !important;
+}
+
 .text-bold {
     font-weight: 500 !important;
+}
+
+/* Button style */
+.btn {
+    height: 36px;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    background: none;
+    color: var(--text-color);
+}
+
+.btn:hover {
+    background: #f7f8f9;
+}
+
+.btn.btn--primary {
+    color: var(--white-color);
+    background: var(--primary-color);
 }
 
 /* Set up for responsive design */
