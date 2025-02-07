@@ -267,7 +267,7 @@
     border-color: #666;
 }
 
-.auth-form___aside {
+.auth-form__aside {
     margin-top: 24px;
 }
 
@@ -282,8 +282,21 @@
 } 
 
 .auth-form__controls {
-    margin-top: 48px;
+    margin-top: 84px;
     text-align: right;
+}
+
+.auth-form__help {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__help-link {
+    font-size: 1.4rem;
+}
+
+.auth-form__help-link--separate {
+    border-left: 1px solid #ccc;
 }
 
 .modal__footer {

@@ -3,6 +3,7 @@
     --black-color: #000;
     --text-color: #313131;
     --primary-color: #f53f2d;
+    --secondary-color: #919191;
 }
 
 * {
@@ -45,6 +46,15 @@ button {
     padding-right: 32px !important;
 }
 
+.py-4 {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+.pl-16 {
+    padding-left: 16px !important;
+}
+
 .ml-8 {
     margin-left: 8px !important;
 }
@@ -53,6 +63,12 @@ button {
     margin-left: 16px !important;
 }
 
+.text-primary {
+    color: var(--primary-color);
+}
+.text-secondary {
+    color: var(--secondary-color);
+}
 .text-bold {
     font-weight: 500 !important;
 }

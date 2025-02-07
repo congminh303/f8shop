@@ -152,11 +152,13 @@
     <div class="modal">
         <div class="modal__overlay"></div>
         <div class="modal__content">
-             <div class="modal__header">
-                <h3 class="modal__heading">Đăng ký</h3>
-                <h5 class="modal__switching">Đăng nhập</h5>
-             </div>
-             <div class="modal__body">
+            <!-- Register form -->
+            <!-- <div class="register-form">
+                <div class="modal__header">
+                    <h3 class="modal__heading">Đăng ký</h3>
+                    <h5 class="modal__switching">Đăng nhập</h5>
+                </div>
+                <div class="modal__body">
                 <div class="auth-form__group">
                     <input type="text" placeholder="Tên đăng nhập" class="auth-form__input">
                 </div>
@@ -167,7 +169,7 @@
                     <input type="password" placeholder="Nhập lại mật khẩu" class="auth-form__input">
                 </div>
 
-                <div class="auth-form___aside">
+                <div class="auth-form__aside">
                     <p class="auth-form__policy-text">
                         Bằng việc đăng ký, bạn đã đồng ý với Shopee về <br />
                         <a href="#" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
@@ -179,19 +181,48 @@
                     <button class="btn px-32">TRỞ LẠI</button>
                     <button class="btn btn--primary px-32 ml-8">ĐĂNG KÝ</button>
                 </div>
-             </div>
-             <div class="modal__footer">
+                </div>
+            </div> -->
+
+            <!-- Login form -->
+            <div class="login-form">
+                <div class="modal__header">
+                    <h3 class="modal__heading">Đăng nhập</h3>
+                    <h5 class="modal__switching">Đăng ký</h5>
+                </div>
+                <div class="modal__body">
+                    <div class="auth-form__group">
+                        <input type="text" placeholder="Tên đăng nhập" class="auth-form__input">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" placeholder="Mật khẩu" class="auth-form__input">
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link px-16 py-4 text-primary">Quên mật khẩu!</a>
+                            <a href="" class="auth-form__help-link pl-16 py-4 text-secondary auth-form__help-link--separate">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn px-32">TRỞ LẠI</button>
+                        <button class="btn btn--primary px-32 ml-8">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__footer">
                 <div class="social-links">
                     <a href="#" class="btn btn-social btn-fb">
                         <i class="fa-brands fa-square-facebook"></i>
-                        Kết nối với Facebook
+                        Đăng nhập với Facebook
                     </a>
                     <a href="#" class="btn btn-social ml-8 btn-gg">
                         <i class="fa-brands fa-google"></i>
-                        Kết nối với Google
+                        Đăng nhập với Google
                     </a>
                 </div>
-             </div>
+            </div>
         </div>
     </div>
 </body>
