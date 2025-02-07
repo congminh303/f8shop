@@ -348,3 +348,38 @@
 .btn-gg:hover {
     background: var(--white-color);
 }
+
+.header-with-search {
+    display: flex;
+}
+
+.header__logo {
+    padding: 8px 0;
+}
+
+.header__logo a {
+    color: var(--white-color);
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.header__search {
+    flex-grow: 1;
+    padding: 4px 32px;
+}
+
+.header__search input {
+    height: 100%;
+    width: 100%;
+}
+
+.header__cart {
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.header__cart i {
+    color: var(--white-color);
+    font-size: 2.8rem;
+}
