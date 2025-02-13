@@ -549,6 +549,22 @@
 }
 
 /* Cart list */
+.header__cart-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #f9502f;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    position: absolute;
+    top: -12px;
+    right: -14px;
+    background: #fff;
+    color: #f9502f;
+}
+
 .header__cart-list {
     position: absolute;
     top: calc(100% + 8px);
@@ -574,6 +590,7 @@
     border-width: 20px 26px;
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
+    cursor: pointer;
 }
 
 .header__cart-list::after {
