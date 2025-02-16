@@ -710,3 +710,76 @@
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
 }
+
+/* ******************************
+** CONTAINER CSS
+*********************************/
+.app__container {
+    background-color: #f6f6f6;
+}
+
+.category {
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.category-heading {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    padding: 16px;
+    margin-bottom: 0;
+}
+
+.category-heading i {
+    margin-right: 4px;
+    font-size: 1.4rem;
+}
+
+.category-heading--separate {
+    width: 82.5%;
+    margin: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.category-list {
+    margin: 16px 0;
+}
+
+.category-list,
+.category-sublist {
+    padding-left: 0;
+}
+
+.category-item {
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.category-item:last-child .category-item__link {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.category-item__link,
+.category-subitem__link {
+    display: block;
+    padding: 12px 16px;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition-duration: 0.3s;
+}
+
+.category-subitem__link {
+    padding: 6px 32px;
+    font-size: 1.2rem;
+}
+
+.category-item__link:hover {
+    color: #fff;
+    background-color: #f9502f;
+} 
+
+.category-subitem__link:hover {
+    color: #fff;
+    background-color: #f76d43;
+}
