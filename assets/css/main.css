@@ -786,10 +786,19 @@
 
 /* PRODUCT ITEM */
 .home-product-item {
+    display: block;
     background-color: #fff;
     margin-top: 16px;
     margin-bottom: 16px;
+    border: 1px solid #f1f1f1;
     position: relative;
+    transition: transform ease-in-out .3s;
+    will-change: transform;
+}
+
+.home-product-item:hover {
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 40px -12px;
 }
 
 .home-product-item__img {
@@ -803,6 +812,7 @@
 }
 
 .home-product-item__name {
+    color: #333;
     font-size: 1.4rem;
     line-height: 1.8rem;
     height: 3.6rem;
