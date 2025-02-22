@@ -19,8 +19,17 @@ html {
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1; 
+  }
+
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 a {
